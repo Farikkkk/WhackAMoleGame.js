@@ -137,3 +137,60 @@ input {
   background-color: #fd6405;
   color: aqua;
 }
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .start-game {
+    font-size: 3rem;
+  }
+
+  label {
+    font-size: 1.2rem;
+  }
+
+  input {
+    font-size: 1.5rem;
+  }
+
+  #start-game-btn {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+  }
+
+  .info {
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+  }
+
+  .score,
+  .time {
+    font-size: 1.2rem;
+  }
+
+  .grid {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+  }
+
+  .square {
+    width: 80px;
+    height: 80px;
+  }
+
+  .win-box {
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 0.5rem;
+  }
+
+  #reset-btn {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+  }
+}
